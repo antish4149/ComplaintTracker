@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Submit Complaint</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Complaint Form</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <h2>Submit Complaint</h2>
 
 <form id="complaintForm">
-    <input type="text" placeholder="Name" id="name" required>
-    <input type="email" placeholder="Email" id="email" required>
-    <input type="text" placeholder="Title" id="title" required>
-    <textarea placeholder="Description" id="description" required></textarea>
-    <button type="submit">Submit</button>
+  <input type="text" id="name" placeholder="Your Name" required />
+  <textarea id="issue" placeholder="Describe issue" required></textarea>
+  <button type="submit">Submit</button>
 </form>
 
-<script src="index.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

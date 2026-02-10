@@ -1,15 +1,15 @@
 body {
-    font-family: Arial;
-    padding: 20px;
+  font-family: Arial;
+  padding: 20px;
 }
 
-input, textarea, button {
-    display: block;
-    margin: 10px 0;
-    padding: 8px;
-    width: 300px;
+input, textarea, button, select {
+  display: block;
+  margin: 10px 0;
 }
 
-button {
-    cursor: pointer;
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
 }
